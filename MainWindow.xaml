@@ -1,0 +1,54 @@
+﻿<Window x:Class="WpfPiirustusOhjelma.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPiirustusOhjelma"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Tiedosto">
+                <MenuItem Name="MenuItemUusi" Header="Uusi" Click="MenuItemUusi_Click" />
+                <MenuItem Name="MenuItemAvaa" Header="Avaa" Click="MenuItemAvaa_Click" />
+                <MenuItem Name="MenuItemTalleta" Header="Talleta" Click="MenuItemTalleta_Click" />
+                <MenuItem Name="MenuItemSulje" Header="Sulje" Click="MenuItemSulje_Click" />
+            </MenuItem>
+            <MenuItem Header="Muuta">
+                <MenuItem Name="MenuItemVari" Header="Vari" Click="MenuItemVari_Click" />
+                <MenuItem Name="MenuItemPaksuus" Header="Kynäpaksuus" Click="MenuItemPaksuus_Click" />
+                <MenuItem Name="MenuItemMuoto" Header="Muoto" Click="MenuItemMuoto_Click" >
+                    <MenuItem Name="MenuItemViiva" Header="Viiva" Click="MenuItemViiva_Click" />
+                    <MenuItem Name="MenuItemEllipsi" Header="Ellipsi" Click="MenuItemEllipsi_Click" />
+                    <MenuItem Name="MenuItemSuorakaide" Header="Suorakaide" Click="MenuItemSuorakaide_Click" />
+                    <MenuItem Name="MenuItemEllipsit" Header="Ellipsit" Click="MenuItemEllipsit_Click" />
+                    <MenuItem Name="MenuItemTaytettyEllipsi" Header="Täytetty ellipsi" Click="MenuItemTaytettyEllipsi_Click" />
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBarTray>
+            <ToolBar>
+            <Button Name="ButtonVari" HorizontalAlignment="Left" Click="ButtonVari_Click"  >
+                <StackPanel Orientation="Vertical">
+                    <Image Source="/WpfPiirustusOhjelma;component/vari.png" />
+                </StackPanel>
+            </Button>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center">Kynäpaksuus</TextBlock>
+            </StackPanel>
+            <ComboBox Name="ComboBoxPaksuudet" HorizontalAlignment="Center" SelectionChanged="ComboBoxPaksuudet_SelectionChanged" >
+            </ComboBox>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center">Muodot</TextBlock>
+            </StackPanel>
+            <ComboBox Name="ComboBoxMuodot" SelectionChanged="ComboBoxMuodot_SelectionChanged"  >
+
+            </ComboBox>
+        </ToolBar>
+        </ToolBarTray>
+        <Grid Name="GridPiirto" Background="Black" MouseLeftButtonDown="GridPiirto_MouseLeftButtonDown"
+                                               MouseMove="GridPiirto_MouseMove"
+                                               MouseLeftButtonUp="GridPiirto_MouseLeftButtonUp" />
+
+    </DockPanel>
+</Window>

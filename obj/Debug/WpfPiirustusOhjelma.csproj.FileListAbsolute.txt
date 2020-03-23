@@ -1,0 +1,15 @@
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\bin\Debug\WpfPiirustusOhjelma.exe.config
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\bin\Debug\WpfPiirustusOhjelma.exe
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\bin\Debug\WpfPiirustusOhjelma.pdb
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.csprojAssemblyReference.cache
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\MainWindow.g.cs
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\App.g.cs
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma_MarkupCompile.cache
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma_MarkupCompile.lref
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\MainWindow.baml
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.g.resources
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.Properties.Resources.resources
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.csproj.GenerateResource.cache
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.exe
+c:\users\admin\source\repos\WpfPiirustusOhjelma\WpfPiirustusOhjelma\obj\Debug\WpfPiirustusOhjelma.pdb
